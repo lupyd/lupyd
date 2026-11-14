@@ -2,6 +2,30 @@
 
 What changed in each Lupyd release, newest first. Also at https://www.lupyd.com/changelog/. Downloads are on each [release](https://github.com/lupyd/lupyd/releases) and at https://www.lupyd.com/download/.
 
+## 1.1.7 (2026-11-14)
+
+A new device has to be approved before it sees your messages, and groups are harder to break or take over.
+
+### New
+
+- When a new device signs in to your account, your other devices ask whether to trust it. Until you approve it on one of them, it gets none of your message history and can't unlock your chat backup. Settings, Devices shows which devices are trusted, and you can change it there.
+- Group messages that came from another member's copy of the history, rather than straight to your device, are marked Unverified.
+- Link previews are off by default, because loading one tells the linked site your IP address. Turn them on in Settings, App Preferences.
+
+### Fixed
+
+- Only the group owner can remove the owner's devices or change the owner's role, so a group can't lose its owner while they are away.
+- A broken change sent to a group by one member no longer leaves everyone else stuck: it is withdrawn and the group carries on.
+- A device whose clock was off, or that was offline for a long time, can catch up with its groups again instead of being stuck.
+- Setting a member back to the default role now works (for the group owner). Before, it said it worked but changed nothing.
+- Imported history can no longer claim to come from someone who didn't send it.
+- A trust prompt for a device you then removed no longer stays on screen.
+- Bios are limited to 4096 bytes.
+
+### Web
+
+- Signing in for a plan hands your session to the billing page without putting it in the page address, and cancelling a plan asks in the page itself.
+
 ## 1.1.6 (2026-11-13)
 
 You choose which device to sign out when your account is full, and AI agents can join your chats.
