@@ -2,6 +2,28 @@
 
 What changed in each Lupyd release, newest first. Also at https://www.lupyd.com/changelog/. Downloads are on each [release](https://github.com/lupyd/lupyd/releases) and at https://www.lupyd.com/download/.
 
+## 1.1.8 (2026-11-15)
+
+Your sign-in is kept in your system's keychain, notifications no longer show message text unless you ask, and a round of security fixes.
+
+### New
+
+- On Linux, macOS and Windows, the app keeps your sign-in in the system keychain instead of its own files, and its data folder is readable only by you. Existing sign-ins move over on the first start; if the keychain is unavailable, you stay signed in.
+- Notifications say "New message" instead of showing the text. Turn the text back on in Settings, Privacy.
+- The Android and iOS apps no longer link to plan checkout; plans are managed on the Lupyd website.
+
+### Fixed
+
+- The menu on a message (reply, edit, delete, react) is no longer cut off or dimmed in a band across the chat.
+- Link previews, when turned on, only load public websites, never addresses on your own network.
+- Opening a link can't start or answer a call by itself.
+- Attachments only load from Lupyd's storage, and an uploaded file can't overwrite someone else's or run as part of lupyd.com.
+- Shared files on Android can't reach the app's own private files.
+- Groups: tighter rules on who can change roles, re-add devices, and send messages to a group, and a wrong history key sent first no longer hides the right one.
+- A newly signed-in device trusts your account's other devices only provisionally until one of them confirms it.
+- Signing in right after a server update no longer fails, and choosing a username no longer times out.
+- A user you blocked can't follow you again.
+
 ## 1.1.7 (2026-11-14)
 
 A new device has to be approved before it sees your messages, and groups are harder to break or take over.
