@@ -8,7 +8,7 @@ Messages sit side by side with your chats on wider screens, a message that can't
 
 ### New
 
-- On a wide screen, the open chat sits next to your list of chats. Esc closes it, Alt+Up and Alt+Down move to the chat above or below, and each chat keeps the text you hadn't sent yet.
+- On a wide screen, the open chat sits next to your list of chats. Esc closes it, Alt+Up and Alt+Down move to the chat above or below, and each chat keeps the text you hadn't sent yet. The search bar stays above the open chat, and Ctrl+K searches without leaving it.
 - A message that the server keeps refusing shows Retry and Delete instead of waiting forever. A message written while you are offline, or while Lupyd is being updated, still goes out once the connection is back.
 - Read ticks are remembered after restarting the app.
 - In a call you can pick which microphone to use, and leaving asks first.
