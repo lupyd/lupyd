@@ -2,6 +2,31 @@
 
 What changed in each Lupyd release, newest first. Also at https://www.lupyd.com/changelog/. Downloads are on each [release](https://github.com/lupyd/lupyd/releases) and at https://www.lupyd.com/download/.
 
+## 1.1.9 (2026-11-16)
+
+Messages sit side by side with your chats on wider screens, a message that can't be sent says so, and activity notifications work.
+
+### New
+
+- On a wide screen, the open chat sits next to your list of chats. Esc closes it, Alt+Up and Alt+Down move to the chat above or below, and each chat keeps the text you hadn't sent yet.
+- A message that the server keeps refusing shows Retry and Delete instead of waiting forever. A message written while you are offline, or while Lupyd is being updated, still goes out once the connection is back.
+- Read ticks are remembered after restarting the app.
+- In a call you can pick which microphone to use, and leaving asks first.
+- Removing your profile photo, and other actions that can't be undone, ask first.
+
+### Fixed
+
+- The menu on a message opens from its own button and stays next to the message while the chat scrolls.
+- A chat you have open on screen no longer counts its new messages as unread; one in a window you aren't looking at does.
+- With no other device on your account, a chat no longer says older messages are on your other devices.
+- Activity notifications (follows, likes, comments) load; before, they always failed to.
+- The back button closes an open image instead of leaving the page.
+- Messages you send or receive while older ones are loading no longer end up under the message box.
+
+### Removed
+
+- The "Require Two-Factor Verification" switch in Settings is gone. Two-factor sign-in isn't available yet, and the switch never turned it on.
+
 ## 1.1.8 (2026-11-15)
 
 Your sign-in is kept in your system's keychain, notifications no longer show message text unless you ask, and a round of security fixes.
