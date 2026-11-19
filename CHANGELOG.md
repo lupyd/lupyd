@@ -2,6 +2,44 @@
 
 What changed in each Lupyd release, newest first. Also at https://www.lupyd.com/changelog/. Downloads are on each [release](https://github.com/lupyd/lupyd/releases) and at https://www.lupyd.com/download/.
 
+## 1.2.0 (2026-11-19)
+
+A new look, quieter and in black and white, plus push-to-talk, call shortcuts and call limits, and a long list of fixes to how chats scroll and send.
+
+### New
+
+- A new look: black and white with grey highlights, a friendlier typeface, square avatars, and no glassy blur or heavy shadows. Light and dark both.
+- Calls: push-to-talk, and shortcuts for mute, camera, screen share and leaving. Every key can be changed in Settings, Preferences, Calls. On the desktop app, the push-to-talk key works while you're in another app.
+- Group calls hold up to 20 people, or 100 in a group upgraded on Pro; on Organization billing, everyone in the group. Up to 8 people can share their screen at once.
+- New chat: type someone's username to find them; Enter opens the chat. Old Discover links open Messages.
+- Each chat and group has a Media, docs and links view.
+- On phones, a chat or channel slides in over the list and slides back with a swipe from the left edge. A message's or conversation's options open when you hold it, never on a tap or while scrolling; holding other items shows what a mouse would show on hover.
+- Files shared into Lupyd from another app go to the chat you pick.
+- Photos, videos and files from someone you haven't accepted aren't downloaded until you tap them.
+- @mentions: typing @ in a group suggests members; a member's name shows in bold, and a mention of you is highlighted. A muted group still notifies you when you're mentioned.
+
+### Improved
+
+- One search, at the top: your chats, contacts, groups and message text. It doesn't list people you've never talked to.
+- Switching pages is instant, with no fade or flash.
+- Lupyd behaves like an app rather than a web page: no browser menus, reloading or selectable buttons. Messages and text fields can still be selected and copied.
+- Developer tools are off by default and can be turned on in Settings, About.
+- The See Messages permission says what it does: it hides a channel in Lupyd, but members' devices still receive its messages. A fix is being worked on.
+
+### Fixed
+
+- Scrolling up in a long chat no longer jumps while older messages load.
+- Messages you send in a group go out in the order you wrote them, and messages still sending no longer disappear for a moment.
+- Editing a photo's caption keeps the photo.
+- The floating call window follows the pointer while you drag it.
+- A group you have open always shows in the group rail.
+- In a chat's More options menu, View profile opens the profile, and Mute uses the same list as Settings, so muted chats really stay quiet.
+- A message sent just before the app was closed or crashed is no longer lost.
+
+### Removed
+
+- Controls that did nothing: the Connections page, the Language, Accessibility and Ad settings, and the empty posts list on profiles.
+
 ## 1.1.9 (2026-11-16)
 
 Messages sit side by side with your chats on wider screens, a message that can't be sent says so, and activity notifications work.
