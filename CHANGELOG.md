@@ -2,6 +2,14 @@
 
 What changed in each Lupyd release, newest first. Also at https://www.lupyd.com/changelog/. Downloads are on each [release](https://github.com/lupyd/lupyd/releases) and at https://www.lupyd.com/download/.
 
+## 1.2.1 (2026-11-20)
+
+A fix for deleted messages.
+
+### Fixed
+
+- A message deleted while its chat or channel was closed no longer shows when you open it again.
+
 ## 1.2.0 (2026-11-19)
 
 A new look, quieter and in black and white, plus push-to-talk, call shortcuts and call limits, and a long list of fixes to how chats scroll and send.
